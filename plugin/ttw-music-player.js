@@ -380,15 +380,35 @@
                 var markup, $interface;
 
                 //I would normally use the templating plugin for something like this, but I wanted to keep this plugin's footprint as small as possible
-                markup = '<div class="ttw-music-player">' +
-                        '<div class="player jp-interface">' +
-                        '<div class="album-cover">' +
-                        '<span class="img"></span>' +
-                        '            <span class="highlight"></span>' +
+                markup = '<div class="ttw-music-player col-md-12">' +
+                        '<div class="player jp-interface row">' +
+                        '<div class="album-cover col-md-2 text-center">' +
+                        '   <span class="img"></span>' +
                         '        </div>' +
-                        '        <div class="track-info">' +
-                        '            <p class="title"></p>' +
-                        '            <p class="artist-outer">By <span class="artist"></span></p>' +
+                        '        <div class="player-controls col-md-10">' +
+                        '            <div class="main">' +
+                        '                <div class="track-info">' +
+                        '                   <div class="navigation-controls">' +
+                        '                   <div class="controls-play-pause col-md-2">' +
+                        '                     <div class="play jp-play">&nbsp;</div>' +
+                        '                     <div class="pause jp-pause">&nbsp;</div>' +
+                        '                    </div>' +
+                        '                    <div class="controls-next-prev col-md-10">' +
+                        '                     <p class="artist-outer artist"></p>' +
+                        '                     <p class="title"></p>' +
+                        '                     <p class="description"></p>' +
+                        '                     <div class="row">' +
+                        '                       <div class="previous jp-previous col-md-1"></div>' +
+                        '                       <div class="progress-wrapper col-md-10">' +
+                        '                           <div class="progress jp-seek-bar">' +
+                        '                            <div class="elapsed jp-play-bar"></div>' +
+                        '                           </div>' +
+                        '                       </div>' +
+                        '                        <div class="next jp-next col-md-1"></div>' +
+                        '                     </div>' +
+                        '                     </div>' +
+                        '                   </div>' +
+                        /*
                         '            <div class="rating">' +
                         '                <span class="rating-level rating-star on"></span>' +
                         '                <span class="rating-level rating-star on"></span>' +
@@ -396,13 +416,8 @@
                         '                <span class="rating-level rating-star on"></span>' +
                         '                <span class="rating-level rating-star"></span>' +
                         '            </div>' +
-                        '        </div>' +
-                        '        <div class="player-controls">' +
-                        '            <div class="main">' +
-                        '                <div class="previous jp-previous"></div>' +
-                        '                <div class="play jp-play"></div>' +
-                        '                <div class="pause jp-pause"></div>' +
-                        '                <div class="next jp-next"></div>' +
+                        */
+                        '                </div>' +
                         '<!-- These controls aren\'t used by this plugin, but jPlayer seems to require that they exist -->' +
                         '                <span class="unused-controls">' +
                         '                    <span class="jp-video-play"></span>' +
@@ -421,14 +436,8 @@
                         '                    <span class="jp-gui"></span>' +
                         '                </span>' +
                         '            </div>' +
-                        '            <div class="progress-wrapper">' +
-                        '                <div class="progress jp-seek-bar">' +
-                        '                    <div class="elapsed jp-play-bar"></div>' +
-                        '                </div>' +
-                        '            </div>' +
                         '        </div>' +
                         '    </div>' +
-                        '    <p class="description"></p>' +
                         '    <div class="tracklist">' +
                         '        <ol class="tracks"> </ol>' +
                         '        <div class="more">View More...</div>' +
