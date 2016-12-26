@@ -19,7 +19,7 @@ You can use it by adding in the head section of your document:
 After that, you have to add a div with a class or an id that you will use to initialize the plugin.
 Suppose you want to write the div in the following way:
 ```html
-    <div class="audio-player"></div>
+    <div id="audio-player"></div>
 ```
 
 Now you can use the following sample to initialize the plugin:
