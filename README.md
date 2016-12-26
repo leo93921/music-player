@@ -79,5 +79,7 @@ An example of multi-item playlist:
 ```
 Once you have done this, you should see the plugin loaded.
 
-
+##TO-DO
+[ ] Remove unecessary css rules
+[ ] Create a style for a column layout
 
