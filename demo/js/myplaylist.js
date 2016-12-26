@@ -8,37 +8,133 @@
 
 var myPlaylist = [
 
-    {
-        mp3:'mix/1.mp3',
-        oga:'mix/1.ogg',
-        title:'Track Title',
-        artist:'Artist Name',
-        rating:4,
-        buy:'#',
-        price:'0.99',
-        duration:'0:30',
-        cover:'mix/1.jpg'
-    },
-    {
-        mp3:'mix/1.mp3',
-        oga:'mix/1.ogg',
-        title:'Track Title',
-        artist:'Artist Name',
-        rating:4,
-        buy:'#',
-        price:'0.99',
-        duration:'0:30',
-        cover:'mix/1.jpg'
-    },
-    {
-        mp3:'mix/1.mp3',
-        oga:'mix/1.ogg',
-        title:'Track Title',
-        artist:'Artist Name',
-        rating:4,
-        buy:'#',
-        price:'0.99',
-        duration:'0:30',
-        cover:'mix/1.jpg'
-    }
+  {
+      mp3:'mix/1.mp3',
+      oga:'mix/1.ogg',
+      title:'Track Title',
+      artist:'Artist Name',
+      rating:4,
+      buy:'#',
+      price:'0.99',
+      duration:'0:30',
+      cover:'mix/1.jpg'
+  },
+  {
+      mp3:'mix/1.mp3',
+      oga:'mix/1.ogg',
+      title:'Track Title',
+      artist:'Artist Name',
+      rating:4,
+      buy:'#',
+      price:'0.99',
+      duration:'0:30',
+      cover:'mix/1.jpg'
+  },
+  {
+      mp3:'mix/1.mp3',
+      oga:'mix/1.ogg',
+      title:'Track Title',
+      artist:'Artist Name',
+      rating:4,
+      buy:'#',
+      price:'0.99',
+      duration:'0:30',
+      cover:'mix/1.jpg'
+  },    {
+          mp3:'mix/1.mp3',
+          oga:'mix/1.ogg',
+          title:'Track Title',
+          artist:'Artist Name',
+          rating:4,
+          buy:'#',
+          price:'0.99',
+          duration:'0:30',
+          cover:'mix/1.jpg'
+      },
+      {
+          mp3:'mix/1.mp3',
+          oga:'mix/1.ogg',
+          title:'Track Title',
+          artist:'Artist Name',
+          rating:4,
+          buy:'#',
+          price:'0.99',
+          duration:'0:30',
+          cover:'mix/1.jpg'
+      },
+      {
+          mp3:'mix/1.mp3',
+          oga:'mix/1.ogg',
+          title:'Track Title',
+          artist:'Artist Name',
+          rating:4,
+          buy:'#',
+          price:'0.99',
+          duration:'0:30',
+          cover:'mix/1.jpg'
+      },    {
+              mp3:'mix/1.mp3',
+              oga:'mix/1.ogg',
+              title:'Track Title',
+              artist:'Artist Name',
+              rating:4,
+              buy:'#',
+              price:'0.99',
+              duration:'0:30',
+              cover:'mix/1.jpg'
+          },
+          {
+              mp3:'mix/1.mp3',
+              oga:'mix/1.ogg',
+              title:'Track Title',
+              artist:'Artist Name',
+              rating:4,
+              buy:'#',
+              price:'0.99',
+              duration:'0:30',
+              cover:'mix/1.jpg'
+          },
+          {
+              mp3:'mix/1.mp3',
+              oga:'mix/1.ogg',
+              title:'Track Title',
+              artist:'Artist Name',
+              rating:4,
+              buy:'#',
+              price:'0.99',
+              duration:'0:30',
+              cover:'mix/1.jpg'
+          },    {
+                  mp3:'mix/1.mp3',
+                  oga:'mix/1.ogg',
+                  title:'Track Title',
+                  artist:'Artist Name',
+                  rating:4,
+                  buy:'#',
+                  price:'0.99',
+                  duration:'0:30',
+                  cover:'mix/1.jpg'
+              },
+              {
+                  mp3:'mix/1.mp3',
+                  oga:'mix/1.ogg',
+                  title:'Track Title',
+                  artist:'Artist Name',
+                  rating:4,
+                  buy:'#',
+                  price:'0.99',
+                  duration:'0:30',
+                  cover:'mix/1.jpg'
+              },
+              {
+                  mp3:'mix/1.mp3',
+                  oga:'mix/1.ogg',
+                  title:'Track Title',
+                  artist:'Artist Name',
+                  rating:4,
+                  buy:'#',
+                  price:'0.99',
+                  duration:'0:30',
+                  cover:'mix/1.jpg'
+              }
 ];
