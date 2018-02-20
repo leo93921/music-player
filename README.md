@@ -1,13 +1,13 @@
 # music-player
 
-##What's this?
+## What's this?
 This is an html5 music player that works using jPlayer.
 It's derived from the Codebase music player (http://www.codebasehero.com/2011/07/html5-music-player-updated)
 and it's designed to be minimal.
 Here it is a screenshot:
 ![Alt text](screenshot.gif?raw=true "Screenshot")
 
-##How to use it
+## How to use it
 You can use it by adding in the head section of your document:
 ```html
     <link rel="stylesheet" type="text/css" href="path_to_plugin/css/ttw-music-player.css">
@@ -79,7 +79,7 @@ An example of multi-item playlist:
 ```
 Once you have done this, you should see the plugin loaded.
 
-##TO-DO
+## TO-DO
 - [ ] Remove unecessary css rules
 - [ ] Create a style for a column layout
 
